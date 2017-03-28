@@ -67,7 +67,13 @@ namespace App1
 			public const int calendarView1 = 2131034112;
 			
 			// aapt resource value: 0x7f050001
-			public const int radioButton1 = 2131034113;
+			public const int ctv1 = 2131034113;
+			
+			// aapt resource value: 0x7f050007
+			public const int gridLayout1 = 2131034119;
+			
+			// aapt resource value: 0x7f050006
+			public const int gridprod = 2131034118;
 			
 			// aapt resource value: 0x7f050004
 			public const int radioButton2 = 2131034116;

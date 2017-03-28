@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "App1\App1.csproj", "{3BEB80D4-1E8B-47EA-A9B5-BA80D65C8E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITest1", "UITest1\UITest1.csproj", "{93CC6E8F-F8CC-415A-8F21-BCD4C451855C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestApp2", "UnitTestApp2\UnitTestApp2.csproj", "{8E6F879C-C643-436D-A061-0CC67ED5D3C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +21,16 @@ Global
 		{3BEB80D4-1E8B-47EA-A9B5-BA80D65C8E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BEB80D4-1E8B-47EA-A9B5-BA80D65C8E1B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3BEB80D4-1E8B-47EA-A9B5-BA80D65C8E1B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{93CC6E8F-F8CC-415A-8F21-BCD4C451855C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CC6E8F-F8CC-415A-8F21-BCD4C451855C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CC6E8F-F8CC-415A-8F21-BCD4C451855C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CC6E8F-F8CC-415A-8F21-BCD4C451855C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6F879C-C643-436D-A061-0CC67ED5D3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6F879C-C643-436D-A061-0CC67ED5D3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6F879C-C643-436D-A061-0CC67ED5D3C5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8E6F879C-C643-436D-A061-0CC67ED5D3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6F879C-C643-436D-A061-0CC67ED5D3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6F879C-C643-436D-A061-0CC67ED5D3C5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

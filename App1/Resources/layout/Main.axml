@@ -3,12 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
-    <RadioButton
-        android:text="RadioButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/radioButton1" />
+    android:background="@android:color/black">
     <Button
         android:text="TEST"
         android:layout_width="match_parent"
@@ -35,4 +30,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView1" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridprod" />
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout1" />
 </LinearLayout>

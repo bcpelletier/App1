@@ -9,4 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/calendarView1" />
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ctv1"
+        android:text="45254g2" />
 </LinearLayout>
