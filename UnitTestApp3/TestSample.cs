@@ -2,7 +2,7 @@
 using NUnit.Framework;
 
 
-namespace UnitTestApp2
+namespace UnitTestApp3
 {
     [TestFixture]
     public class TestsSample
@@ -25,10 +25,8 @@ namespace UnitTestApp2
         [Test]
         public void Fail()
         {
-            Assert.False(false);
+            Assert.False(true);
         }
-
-
 
         [Test]
         [Ignore("another time")]
