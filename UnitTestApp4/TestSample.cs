@@ -2,9 +2,9 @@
 using NUnit.Framework;
 
 
-namespace UnitTestApp3
+namespace UnitTestApp4
 {
-    [NUnit.Framework.TestFixture]
+    [TestFixture]
     public class TestsSample
     {
 
@@ -40,5 +40,20 @@ namespace UnitTestApp3
         {
             Assert.Inconclusive("Inconclusive");
         }
-    }
+
+        [Test]
+        public void Prueba()
+
+        {
+            ProductViewModel p = new ProductViewModel();
+            p.SearchTerm = "S";
+            p.Search();
+
+            Assert.Equals(2, 4);
+                
+                
+                }
+            
+            
+            }
 }

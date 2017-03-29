@@ -23,7 +23,7 @@ namespace UITest1
                 .Android
                 // TODO: Update this path to point to your Android app and uncomment the
                 // code if the app is not included in the solution.
-                .ApkFile ("../../../App1/bin/Release/App1.App1.apk")
+                //.ApkFile ("../../../App1/bin/Release/App1.App1.apk")
                 .StartApp();
         }
 
