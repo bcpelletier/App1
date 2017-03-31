@@ -5,26 +5,88 @@
     android:layout_height="match_parent"
     android:background="@android:color/black">
     <Button
-        android:text="TEST"
+        android:text="Recuperar datos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
         android:background="@android:drawable/dialog_holo_dark_frame" />
     <TextView
-        android:text="TEST"
+        android:text="Datos..."
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30.5dp"
         android:id="@+id/textView1" />
-    <EditText
-        android:inputType="textMultiLine"
+<!-- All your other elements in here -->
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/messages"
-        android:layout_marginBottom="375.5dp" />
-    <Button
-        android:text="Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2" />
+        android:id="@+id/relativeLayout1">
+        <Button
+            android:text="Boton de prueba"
+            android:layout_width="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1" />
+        <ScrollView
+            android:paddingBottom="90px"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:layout_alignBottom="@+id/button1"
+                android:layout_below="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:id="@+id/linear" />
+        </ScrollView>
+      <Button
+               android:text="Enviar"
+               android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+               android:layout_column="1"
+               android:layout_row="1"
+               android:minWidth="50px"
+               android:layout_width="wrap_content"
+                
+               android:layout_height="wrap_content"
+                
+               android:id="@+id/benviar" />
+
+
+      <EditText
+          android:maxHeight="100px"
+          android:layout_alignParentLeft="true"
+          android:layout_marginRight="160px"
+            android:inputType="textMultiLine"
+            android:layout_height="wrap_content"
+          android:layout_width="fill_parent"
+            android:layout_toRightOf="@+id/benviar"
+          android:layout_alignParentBottom="true"
+            android:id="@+id/messages"
+            android:layout_marginBottom="10dp" />
+      <!--     <GridLayout
+           
+            android:minWidth="25px"
+           
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:id="@+id/gridLayout1">
+            <EditText
+              android:layout_alignParentLeft="true"
+              
+                android:inputType="textMultiLine"
+                
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/benviar"
+                android:id="@+id/messages"
+                android:layout_marginBottom="10dp" />
+           
+        </GridLayout>-->
+    </RelativeLayout>
 </LinearLayout>
